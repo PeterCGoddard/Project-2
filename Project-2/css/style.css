@@ -8,7 +8,7 @@
       font-family: 'Alfa Slab One', serif;
       font-weight: 700
     }
-<style>
+style>
     body {
   font-family: "Alfa Slab One", serif;
     background-color: #f0f0f0;
@@ -82,4 +82,5 @@ h1 {
     height: auto;
     border-radius: 4px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+
 }
