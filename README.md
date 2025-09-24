@@ -9,4 +9,4 @@ Ideas for future improvement:
 4. Add donation button
 5. Add comment page
 
-GitHub Link: https://github.com/PeterCGoddard/Project-2
+GitHub Link: https://petercgoddard.github.io/Project-2/
