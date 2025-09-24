@@ -1,4 +1,4 @@
-// script.js
+// js/main.js
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 const gifResults = document.getElementById('gifResults');
@@ -51,6 +51,7 @@ function displayGifs(gifs) {
         gifResults.appendChild(gifItem);
     });
 }
+
 
 
 
