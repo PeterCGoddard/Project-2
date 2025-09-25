@@ -62,19 +62,15 @@ h1 {
     background-color: #0056b3;
 }
 
-.gif-results {
-display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    margin-top: 20px;
-    @media (max-width: 320px){
-        #demo {
-            flex-direction: column;
-        #div1 {
-            width: 100%;
-        }
-        }
-    }
+.search-results-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+@media (max-width: 768px) {
+  .search-results-container {
+    grid-template-columns: 1fr;
+  }
+}
 }
 .gif-item img {
     width: 100%;
@@ -82,6 +78,7 @@ display: grid;
     border-radius: 4px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
+
 
 
 
