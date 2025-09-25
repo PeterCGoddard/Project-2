@@ -2,7 +2,7 @@ Name: Peter Goddard
 
 Project Overview: Gif Search Engine
 
-Website Functionality: Project functions through user processing. Users submits search query and website reveals gifs that reflect the search. The search functionality occurs through JavaScript.
+Website Functionality: Project functions through user processing. Users submit search query and website reveals gifs that reflect the search. The search functionality occurs through JavaScript.
 
 Technologies Used: .html, .css, github, JavaScript
 
