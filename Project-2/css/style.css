@@ -62,22 +62,27 @@ h1 {
     background-color: #0056b3;
 }
 
-.gif-results-container {
-   display: grid;
-  gap: 1rem;
+.gif-results {
+display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    @media (max-width: 320px){
+        #demo {
+            flex-direction: column;
+        #div1 {
+            width: 100%;
+        }
+        }
+    }
 }
-@media (min-width: 768px) {
-  .gif-results-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 .gif-item img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
+
 
 
 
