@@ -2,11 +2,11 @@
 .alfa-slab-one-regular {
   font-family: "Alfa Slab One", serif;
   font-weight: 700;
+      font-weight: 700
   font-style: normal;
 }
     h1 {
       font-family: 'Alfa Slab One', serif;
-      font-weight: 700
     }
 style>
     body {
@@ -61,7 +61,7 @@ h1 {
 #searchButton:hover {
     background-color: #0056b3;
 }
-gif-grid {
+#gifResults {
     display: grid;
      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
@@ -78,6 +78,7 @@ gif-grid {
     border-radius: 4px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
+
 
 
 
